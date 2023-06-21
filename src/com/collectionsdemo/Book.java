@@ -42,5 +42,11 @@ public boolean equals(Object obj) {
 	Book other = (Book) obj;
 	return Double.doubleToLongBits(price) == Double.doubleToLongBits(other.price) && Objects.equals(title, other.title);
 }
+public String getAuthor() {
+	return author;
+}
+public void setAuthor(String author) {
+	this.author = author;
+}
 
 }
