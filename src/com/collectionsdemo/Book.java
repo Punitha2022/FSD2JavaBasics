@@ -5,6 +5,7 @@ import java.util.Objects;
 public class Book {
 private String title;
 private double price;
+private String author;
 public Book(String title, double price) {
 	super();
 	this.title = title;
