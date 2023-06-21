@@ -3,6 +3,7 @@ package com.collectionsdemo;
 import java.util.Objects;
 
 public class Book {
+	private int isbn;
 private String title;
 private double price;
 private String author;
